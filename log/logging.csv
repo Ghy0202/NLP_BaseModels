@@ -1,0 +1,14 @@
+model_name,dataset,optimizer,initializer,lr,dropout,l2reg,num_epoch,batch_size,log_step,embed_dim,hidden_dim,position_dim,max_length,device,repeats,max_test_acc,max_f1
+my_ian,laptop,<class 'torch.optim.adagrad.Adagrad'>,<function xavier_uniform_ at 0x00000189B0BD6438>,0.01,0.5,1e-05,0,32,5,300,200,100,80,cpu,1,0,0
+my_ian,laptop,<class 'torch.optim.adagrad.Adagrad'>,<function xavier_uniform_ at 0x00000258B6876438>,0.01,0.5,1e-05,40,32,5,300,200,100,80,cpu,1,0.6677115987460815,0.5880634224679827
+my_ian,laptop,<class 'torch.optim.adam.Adam'>,<function xavier_uniform_ at 0x0000018E94255438>,0.01,0.5,1e-05,40,32,5,300,200,100,80,cpu,1,0.6285266457680251,0.5564069872569011
+my_ian,laptop,<class 'torch.optim.adam.Adam'>,<function xavier_uniform_ at 0x000001A1307D6438>,0.001,0.5,1e-05,40,32,5,300,200,100,80,cpu,1,0.719435736677116,0.6597708947399812
+my_ian,laptop,<class 'torch.optim.sgd.SGD'>,<function xavier_uniform_ at 0x0000016966FF6438>,0.001,0.5,1e-05,40,32,5,300,200,100,80,cpu,1,0.5470219435736677,0.3400326023143471
+my_ian,laptop,<class 'torch.optim.sgd.SGD'>,<function xavier_uniform_ at 0x000001A189C95438>,1e-05,0.5,1e-05,40,32,5,300,200,100,80,cpu,1,0.26489028213166144,0.16556776556776556
+my_ian,laptop,<class 'torch.optim.asgd.ASGD'>,<function xavier_uniform_ at 0x000001D772505438>,1e-05,0.5,1e-05,40,32,5,300,200,100,80,cpu,1,0.2335423197492163,0.15634782941179284
+my_ian,laptop,<class 'torch.optim.asgd.ASGD'>,<function xavier_uniform_ at 0x0000020EA3686438>,1e-05,0.5,1e-05,40,32,5,300,200,100,80,cpu,1,0.2006269592476489,0.11154684095860568
+my_ian,laptop,<class 'torch.optim.sgd.SGD'>,<function xavier_uniform_ at 0x0000011FD86B64C8>,1e-05,0.5,1e-05,40,32,5,300,200,100,80,cpu,1,0.49059561128526646,0.3333461564259476
+my_ian,laptop,<class 'torch.optim.sgd.SGD'>,<function xavier_uniform_ at 0x0000023F8CD264C8>,1e-05,0.5,1e-05,60,32,5,300,200,100,80,cpu,1,0.5391849529780565,0.26882666254717774
+my_ian,restaurant,<class 'torch.optim.adam.Adam'>,<function xavier_uniform_ at 0x00000176391264C8>,1e-05,0.5,1e-05,60,32,5,300,200,100,80,cpu,1,0.7508928571428571,0.6157521157521156
+lstm,restaurant,<class 'torch.optim.adam.Adam'>,<function xavier_uniform_ at 0x0000027B539064C8>,1e-05,0.5,1e-05,60,32,5,300,200,100,80,cpu,1,0.7482142857142857,0.6130419282823061
+lstm,laptop,<class 'torch.optim.adam.Adam'>,<function xavier_uniform_ at 0x000002A8E6D164C8>,1e-05,0.5,1e-05,60,32,5,300,200,100,80,cpu,1,0.6912225705329154,0.6031262033815401
