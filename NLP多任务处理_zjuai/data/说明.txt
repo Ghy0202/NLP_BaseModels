@@ -1,0 +1,1 @@
+数据集下载到./data/目录下即可，数据集地址：https://aistudio.baidu.com/aistudio/competition/detail/391/0/datasets
